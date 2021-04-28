@@ -1,0 +1,22 @@
+{
+    "name": "aciklab/ornekproje",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Baran Sekin",
+            "email": "baransekin@gmail.com"
+        }
+    ],
+    "require": {
+        "mervick/aes-everywhere": "^1.1"
+    },
+	"autoload": {
+		"psr-4": {
+			"App\\": "app"
+		},
+		"classmap": [
+			"app"
+		]
+	}
+}
